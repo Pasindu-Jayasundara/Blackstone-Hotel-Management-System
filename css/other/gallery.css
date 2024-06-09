@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Dancing+Script&display=swap');
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+
+
+
+@media (max-width:1520px) {
+    .weddingdivClass {
+        display: none;
+    }
+
+    .weddingMedium {
+        display: block;
+    }
+}
+
+@media (min-width:1520px) {
+    .weddingdivClass {
+        margin-left: -24%;
+        display: flex;
+    }
+
+    .weddingMedium {
+        display: none;
+    }
+}

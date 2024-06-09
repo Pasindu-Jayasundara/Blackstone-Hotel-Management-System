@@ -1,0 +1,33 @@
+.dashboardMessage {
+    min-width: 16vw;
+    max-width: 17vw;
+    height: 35vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.dashboardMessage::-webkit-scrollbar {
+    width: 0px; 
+  }
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+div::-webkit-scrollbar{
+
+    width: 0;
+}
+
+.msg{
+    animation: newMsg 3s 0ms infinite;
+}
+
+@keyframes newMsg {
+    from{
+        color: black;
+    }
+    to{
+        color: red;
+    }
+}

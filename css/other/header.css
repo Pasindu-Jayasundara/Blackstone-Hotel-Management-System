@@ -1,0 +1,38 @@
+
+
+/* large screen */
+@media (min-width:992px) {
+    .blackStoneLogo{
+        margin-left: -2%;
+    }
+    .blackstoneImg{
+        position: absolute; 
+        margin-top: 1%;
+    }
+    .currentPage{
+        border-color: yellowgreen;
+        border-width: 1;
+        border-style: solid;
+        border-radius: 5px;
+    }
+}
+
+/* medium screen */
+@media (max-width:992px) {
+    .blackStoneLogo{
+        margin-left: -2%;
+        margin-top: -3%;
+    }
+    .blackstoneImg{
+        position: absolute; 
+        margin-top: .5%;
+    }
+    .currentPage{
+        border-color: yellowgreen;
+        border-width: .5%;
+        border-style: solid;
+        border-radius: 5px;
+        width: 55%;
+    }
+}
+

@@ -1,0 +1,61 @@
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+}
+
+.pic {
+    width: 700px;
+    height: 545px;
+    margin-left: 120px;
+    flex-direction: row;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;
+}
+
+.bx2 {
+    width: 220px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: -285px;
+    background-color: hsl(0, 3%, 11%);
+    background-color: hsla(0, 4%, 11%, 0.655);
+    opacity: 0.85;
+}
+
+.txt1 {
+    font-family: "Lustria";
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.btn {
+    background-color: rgb(54, 17, 167);
+    color: white;
+    width: 150px;
+    height: 55px;
+    margin-top: 60px;
+    margin-left: 35px;
+
+}
+    
+.txt2{
+    font-family:'Lucida Sans';
+    color: rgb(8, 177, 14);
+    font-weight: bold;
+}
+.txt3{
+    font-family:'Lucida Sans';
+    font-style: italic;
+}
+.txt4{
+    font-family:'Lucida Sans';
+    color: white;
+}

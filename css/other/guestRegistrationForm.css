@@ -1,0 +1,205 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.b1 {
+    font-size: 34px;
+    margin-top: 25px;
+    background-color: rgba(4, 12, 58, 0.945);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 600px;
+    height: 100px;
+    z-index: 2;
+    text-transform: uppercase;
+}
+
+.selctTag {
+    appearance: none;
+    width: 210px;
+    outline: none;
+    background-color: rgb(215, 215, 215);
+    /* background-color: transparent; */
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 8px;
+    z-index: 2;
+    border: none;
+}
+
+.downArrow {
+    z-index: 5;
+    background-color: blue;
+    right: -.5px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+}
+
+.downicon {
+    color: white;
+}
+
+.input {
+    appearance: none;
+    width: 210px;
+    outline: none;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid blue;
+}
+
+.second {
+    width: 31%
+}
+
+.secondSpan {
+    margin-right: 50px;
+}
+
+.inputAddress {
+    width: 571.5px;
+    margin-left: -1%;
+}
+
+.glass {
+    backdrop-filter: blur(7px) saturate(180%);
+    -webkit-backdrop-filter: blur(7px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.43);
+}
+
+.nic {
+    margin-left: -1.25%;
+}
+
+.pass {
+    margin-left: -4%;
+}
+
+.add {
+    margin-left: 7%;
+    width: 148px;
+}
+
+.pc {
+    margin-left: 9%;
+}
+
+@media (max-width:576px) {
+    .date {
+        font-size: 15px;
+    }
+
+    .surname {
+        margin-left: 3px;
+        width: 76px;
+    }
+
+    .surnameSelect {
+        margin-left: 15px;
+    }
+
+    .nic {
+        margin-left: -100%;
+        margin-right: 3%;
+    }
+
+    .mobile {
+        margin-left: 5%;
+    }
+
+    .secondSpan {
+        margin-left: 20%;
+        width: 260px;
+    }
+
+    .pass {
+        margin-left: 0%;
+    }
+
+    .add {
+        margin-left: -1%;
+        width: 0;
+    }
+
+    .inputAddress {
+        width: 280px;
+        margin-left: 27%;
+    }
+
+    .pa {
+        margin-left: -5%;
+    }
+
+    .pc {
+        margin-left: -22%;
+        margin-top: 5%;
+    }
+
+    .pc2 {
+        margin-left: -3.5%;
+    }
+
+    .cou {
+        margin-left: 4.75%;
+    }
+
+    .na {
+        margin-top: 2%;
+    }
+
+    .rel {
+        margin-left: 7.5%;
+    }
+
+    .roo {
+        margin-left: -25%;
+    }
+
+    .roo1 {
+        margin-top: 3%;
+    }
+
+    .roo2 {
+        margin-top: -7%;
+    }
+
+    .mp {
+        margin-top: 8%;
+    }
+
+    .tr {
+        margin-left: -28%;
+    }
+
+    .b1 {
+        font-size: 20px;
+        margin-top: 85px;
+        background-color: rgba(4, 12, 58, 0.945);
+        border: none;
+        border-radius: 10px;
+        color: white;
+        width: 500px;
+        height: 60px;
+        z-index: 2;
+        text-transform: uppercase;
+    }
+
+    .ad {
+        margin-left: -38%;
+    }
+
+    .di {
+        margin-top: -10%;
+    }
+}

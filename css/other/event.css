@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+::-webkit-scrollbar{
+    width: 0;
+}
+.heightimg1{
+    max-height:630px;
+}
+.heightimg2{
+    max-height:630px;
+}
+.heightimg3{
+    max-height:700px;
+}
+.p1{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img4{
+    width: 600px;
+    height:400px;
+}
+.img5{
+    width: 800px;
+    height:400px;
+}
+.verticalline1{
+    border-left: 3px solid black;
+    
+    height: 300px; 
+    margin-left:29px;
+    margin-top:70px;
+
+}
+.verticalline2{
+    border-left: 3px solid black;
+    
+    height: 346px; 
+    margin-top:40px;
+    margin-left:58px;
+
+}
+
+

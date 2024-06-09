@@ -1,0 +1,174 @@
+/* small screen */
+@media (max-width:576px) {
+    .c1 {
+        background-size: cover;
+        background-position: center;
+        max-height: 335px;
+        min-height: 335px;
+    }
+
+    .accommodationCenterImg {
+        /* width: 30%; */
+        height: 40vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 60%;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .shadowadd {
+        box-shadow: 7px 7px 14px #000000,
+            -7px -7px 14px #000000;
+    }
+
+    .accommodation {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: #002E3D;
+    }
+
+    .offertag {
+        width: 84%;
+    }
+
+    .cour {
+        margin-top: -150px;
+        z-index: 2;
+    }
+
+
+    .offerDisplay {
+        z-index: 2;
+        padding-top: 6.5%;
+    }
+}
+
+/* medium screen */
+@media (min-width:768px) {
+
+    .video {
+        width: 100vw;
+        height: 89.5vh;
+        margin: 0;
+        padding: 0;
+        z-index: 1;
+        object-fit: cover;
+    }
+
+    .offerlabel {
+        margin-top: -25%;
+        margin-left: -33%;
+    }
+
+    .c1 {
+        background-size: cover;
+        background-position: center;
+        max-height: 335px;
+        min-height: 335px;
+    }
+
+    .accommodationCenterImg {
+        width: 33%;
+        height: 55vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: -12%;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .shadowadd {
+        box-shadow: 7px 7px 14px #000000,
+            -7px -7px 14px #000000;
+    }
+
+    .accommodation {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: #002E3D;
+    }
+
+    .offertag {
+        width: 80%;
+    }
+
+    .offerDisplay {
+        z-index: 2;
+        padding-top: 6.5%;
+    }
+
+    .bookNowDiv {
+        border-radius: 10px;
+    }
+
+
+}
+
+/* large screen */
+@media (min-width:992px) {
+    .video {
+        width: 100vw;
+        height: 89.5vh;
+        margin: 0;
+        padding: 0;
+        z-index: 1;
+        object-fit: cover;
+    }
+
+    .offerlabel {
+        margin-top: -25%;
+        margin-left: -33%;
+    }
+
+    .c1 {
+        background-size: cover;
+        background-position: center;
+        max-height: 335px;
+        min-height: 335px;
+    }
+
+    .accommodationCenterImg {
+        width: 30%;
+        height: 65vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: -12%;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .shadowadd {
+        box-shadow: 7px 7px 14px #000000,
+            -7px -7px 14px #000000;
+    }
+
+    .accommodation {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: #002E3D;
+    }
+
+    .offertag {
+        width: 80%;
+    }
+
+    .offerDisplay {
+        z-index: 2;
+        padding-top: 6.5%;
+    }
+
+    .bookNowDiv {
+        border-radius: 10px;
+    }
+
+}

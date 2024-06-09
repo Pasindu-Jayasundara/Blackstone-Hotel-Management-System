@@ -1,0 +1,84 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.b1 {
+    font-size: 34px;
+    margin-top: 200px;
+    background-color: rgba(4, 12, 58, 0.945);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 600px;
+    height: 100px;
+    z-index: 2;
+}
+
+.t {
+    color: rgba(4, 12, 58, 0.945);
+}
+
+.add {
+    width: 100%;
+}
+
+.bn {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.bn1 {
+    margin-top: -5%;
+}
+
+.Name {
+    width: 360px;
+    border-color: rgb(221, 221, 221);
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-color: rgba(224, 219, 219, 0.664);
+    background-color: rgba(206, 202, 202, 0.822);
+    font-size: 13px;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: -40px;
+    margin-left: 0;
+    border: none;
+}
+
+.Name:hover {
+    cursor: pointer;
+    outline-color: rgb(19, 109, 184);
+}
+
+.textField {
+    width: 360px;
+    border-color: rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-color: rgba(224, 219, 219, 0.664);
+    background-color: rgba(206, 202, 202, 0.822);
+    font-size: 13px;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 0;
+    border: none;
+}
+
+.h41 {
+    padding-left: 0;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width:576px) {
+    .bn {
+        margin-top: 6%;
+        margin-left: 0%;
+    }
+}

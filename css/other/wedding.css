@@ -1,0 +1,218 @@
+@font-face {
+    font-family: "GreatVibe";
+    src: url("../../font/GreatVibe.ttf");
+}
+
+@font-face {
+    font-family: "Lustria";
+    src: url("../../font/Lustria.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../font/Montserrat.ttf");
+}
+
+/* * {
+    font-family: "Montserrat";
+    font-size: 14px;
+} */
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.img1 {
+    /* background-image: url(../../designImages/wed.jpg ); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    /* padding: 0; */
+    /* object-fit: cover; */
+    /* height: 400px; */
+
+}
+
+.txtimg {
+    width: 300px;
+}
+
+.btn1 {
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.p1 {
+    width: 400px;
+    height: 400px;
+    /* margin-left: 300px; */
+}
+.mediump1 {
+    width: 200px;
+    height: 200px;
+    /* margin-left: 300px; */
+}
+
+.whyus::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 84vw;
+    height: 35vh;
+    background-color: rgba(198, 194, 194, 0.595);
+    margin-left: 0.8%;
+}
+
+.whyusImgDiv {
+    width: 13vw;
+    height: 25vh;
+    background-color: rgba(0, 0, 0, 0.359);
+}
+
+.para1 {
+    font-family: "Lustria";
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-right: 65px;
+}
+
+.spara{
+    font-family: "Lustria";
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+/* why us */
+.pic_box {
+    width: 70%;
+    height: 200px;
+    margin-left: 220px;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(../../designImages/img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.small_box {
+    height: 150px;
+    width: 175px;
+    margin-top: 25px;
+    margin-left: 30px;
+    background-image: url(../../designImages/img1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.txt-whyus {
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+}
+
+
+/* food menu */
+
+.foodmenu {
+    width: 200px;
+    height: 300px;
+}
+
+.menu {
+    width: 100%;
+    height: 300px;
+    margin-right: 50px;
+}
+
+.small_box1 {
+    height: 250px;
+    width: 210px;
+    margin-top: 25px;
+    margin-left: 35px;
+    background-image: url(../../wedding_food_menu/f2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.small_box2 {
+    height: 250px;
+    width: 210px;
+    margin-top: 25px;
+    margin-left: 35px;
+    background-image: url(../../wedding_food_menu/f3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.small_box3 {
+    height: 250px;
+    width: 210px;
+    margin-top: 25px;
+    margin-left: 35px;
+    background-image: url(../../wedding_food_menu/f1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.small_box4 {
+    height: 250px;
+    width: 210px;
+    margin-top: 25px;
+    margin-left: 35px;
+    background-image: url(../../wedding_food_menu/f4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.btn-f {
+    background-color: black;
+    color: white;
+    width: 190px;
+    font-weight: bold;
+}
+
+.gallery1 {
+    width: 90%;
+    height: 350px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gallery2 {
+    width: 90%;
+    height: 350px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.glry-pic {
+    width: 275px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.glry-pic2 {
+    width: 285px;
+    height: 300px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+

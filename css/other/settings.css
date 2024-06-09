@@ -1,0 +1,88 @@
+::-webkit-scrollbar{
+    width:0;
+}
+.settingmaindiv{
+    width:175px;
+    height:100vh;
+    background-color:black;
+    background-repeat:repeat-y;
+    margin-left:-14px;
+    
+ }
+ 
+ .settingdiv{
+    width:190px;
+    height:67px;
+    
+      
+    border-radius: 45px;
+    
+ }
+ .input--file {
+    position: relative;
+    color: #7f7f7f;
+  }
+  
+  .input--file input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+ 
+ .settings{
+    padding-top:3px;
+     padding-bottom:3px;
+ }
+ .profile{
+    padding-top:3px;
+     padding-bottom:3px;
+ }
+ .security{
+    padding-top:3px;
+     padding-bottom:3px;
+ }
+ .notify{
+    padding-top:3px;
+     padding-bottom:3px;
+ 
+ }
+ .admin{
+    padding-top:3px;
+     padding-bottom:3px;
+ 
+ }
+ .settings:hover{
+    cursor:pointer;
+    background-color:#4d4949de;
+     
+     
+     
+ }
+ .profile:hover{
+    cursor:pointer;
+    background-color:#4d4949de;
+    
+   
+ 
+ }
+ .security:hover{
+    cursor:pointer;
+    background-color:#4d4949de;
+    
+ }
+ .notify:hover{
+    cursor:pointer;
+    background-color:#4d4949de;
+    
+    
+ }
+ .admin:hover{
+    cursor:pointer;
+    background-color:#4d4949de;
+    
+    
+ }
+ 
+ 
+ 

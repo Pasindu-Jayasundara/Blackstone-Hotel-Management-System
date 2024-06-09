@@ -1,0 +1,253 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.WelcomeImageAndBox {
+    position: relative;
+}
+
+.Images {
+    width: 100%;
+    height: 800px;
+}
+
+.WelcomeBorder {
+    background-color: rgba(89, 86, 86, 0.628);
+    border-width: 50px;
+    border-radius: 50px;
+    top: 70px;
+    right: 30px;
+    height: 400px;
+    position: absolute;
+}
+
+.WelcomeBorder2 {
+    background-color: rgba(89, 86, 86, 0.628);
+    border-width: 10px;
+    border-radius: 50px;
+    top: 10px;
+    right: 60px;
+    height: 220px;
+    position: absolute;
+}
+
+.DiningBorder {
+    background-color: rgba(89, 86, 86, 0.628);
+
+}
+
+
+@font-face {
+    font-family: Titen;
+    src: url(fonts/TitanOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: EDU;
+    src: url(fonts/EduNSWACTFoundation-VariableFont_wght.ttf);
+
+}
+
+.One-Stop {
+    font-family: "EDU";
+    font-size: 80px;
+    font-weight: normal;
+    color: white;
+    text-align: end;
+
+}
+
+.Delicious {
+    font-family: "Titen";
+    font-size: 80px;
+    font-weight: normal;
+    color: red;
+    text-align: center;
+}
+
+.FoodPlace {
+    font-family: "EDU";
+    font-size: 80px;
+    font-weight: normal;
+    color: white;
+    text-align: start;
+}
+
+/* ............................... */
+
+
+.One-Stop1 {
+    font-family: "EDU";
+    font-size: 38px;
+    font-weight: normal;
+    color: white;
+    text-align: end;
+
+}
+
+.Delicious1 {
+    font-family: "Titen";
+    font-size: 38px;
+    font-weight: normal;
+    color: red;
+    text-align: center;
+}
+
+.FoodPlace1 {
+    font-family: "EDU";
+    font-size: 38px;
+    font-weight: normal;
+    color: white;
+    text-align: start;
+}
+
+
+
+
+.MENUBorder {
+    background-color: rgb(5, 43, 108);
+    height: 50px;
+    color: white;
+}
+
+.Tags {
+    background-color: rgb(216, 126, 141);
+    border-radius: 50px;
+    text-align: center;
+    border-color: black;
+}
+
+.Tags:hover {
+    background-color: rgb(255, 94, 121);
+    border-radius: 100px;
+    font-weight: bold;
+    border-color: green;
+}
+
+/* .......................... */
+
+.Tags2 {
+    background-color: rgb(216, 126, 141);
+    border-radius: 50px;
+    text-align: center;
+    border-color: black;
+}
+
+.Tags2:hover {
+    background-color: rgb(255, 94, 121);
+    border-radius: 100px;
+    font-weight: bold;
+    border-color: green;
+}
+
+
+
+
+
+
+.ItemBorder {
+    background-color: #171717;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+.DiningTbale {
+    background-color: #171717;
+    border-radius: 50px;
+    height: auto;
+}
+
+.insideDiningTable {
+    background-color: #1e1e1e;
+    border-radius: 50px;
+    height: auto;
+}
+
+.foodImage {
+    border-radius: 50px;
+    /* width: 180px;  */
+}
+
+.blackstoneImage {
+    width: 30px;
+    border-radius: 50px;
+}
+
+.overlayX {
+    overflow-wrap: break-word;
+}
+
+.resultPage1 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+    display: flexbox;
+    flex-direction: row;
+}
+
+.UpdateFood {
+    color: white;
+    font-weight: bold;
+}
+
+.UpdateFood:hover {
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+.imgsticker {
+    max-width: 200px;
+
+}
+
+/* ...................Special Moments Css Start */
+.triangle {
+    min-width: 50px;
+    /* max-height: 10px; */
+
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #031f53;
+    transform: rotate(90deg);
+
+}
+
+.SpecialMoments_Images {
+    width: 500px;
+    height: 500px;
+
+    border-radius: 30% 70% 68% 32% / 41% 48% 52% 59% ;
+}
+.SpecialMoments_ImagesR{
+    width: 500px;
+    height: 500px;
+
+    border-radius:66% 34% 70% 30% / 29% 6% 94% 71%  ;
+}
+
+
+
+
+.SpecialMoments_Images1 {
+    width: 500px;
+    height: 500px;
+
+    border-radius: 30% 70% 68% 32% / 41% 48% 52% 59% ;
+}
+
+
+.SpecialMoments_Images1R{
+    width: 500px;
+    height: 500px;
+
+    border-radius: 66% 34% 70% 30% / 29% 6% 94% 71%  ;
+}
+
+.blurFilter{
+    filter: blur(3px);
+}
+
